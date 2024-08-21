@@ -353,6 +353,9 @@ template {
 
 .profile-card {
   display: grid;
+  background-color: #1f1f1f;
+  padding: 27px;
+  border-radius: 20px;
 }
 .profile-card__header {
   display: grid;
