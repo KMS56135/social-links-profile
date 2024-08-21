@@ -1,0 +1,65 @@
+.page {
+  background-color: $grey-900;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.profile-card {
+  display: grid;
+
+  &__header {
+    display: grid;
+    justify-items: center;
+  }
+
+  &__photo {
+    border-radius: 50%;
+    max-width: 100px;
+    align-self: center;
+  }
+
+  &__name {
+    color: $white;
+    font-family: $font-family;
+    margin-bottom: 10px;
+  }
+
+  &__location {
+    color: $green;
+    font-size: 14px;
+    font-family: $font-family;
+    margin-top: 0;
+  }
+
+  &__bio {
+    font-size: 14px;
+    color: $grey-700;
+    font-weight: 900;
+    font-family: $font-family;
+  }
+
+  &__links {
+    display: grid;
+    row-gap: 15px;
+  }
+
+  &__link {
+    text-align: center;
+    font-size: 14px;
+    font-family: $font-family;
+    color: $white;
+    background-color: $grey-700;
+    display: block;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      background-color: $green;
+      color: $grey-900;
+    }
+  }
+}

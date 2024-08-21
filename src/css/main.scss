@@ -1,1 +1,13 @@
-@import "../../node_modules/normalize-scss/fork-version/normalize"
+@import "../../node_modules/normalize-scss/fork-version/normalize";
+@import "../css/variables.scss";
+@import "../css/social-links-profile.scss";
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format('ttf');
+}
+
+html,
+body {
+  font-family: $font-family;
+}
+
